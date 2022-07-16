@@ -4,6 +4,7 @@ import Features from './components/Features'
 import Extension from './components/Extension'
 import Questions from './components/Questions'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Extension />
         <Questions />
         <Contact />
+        <Footer />
       </>
     </div>
   );

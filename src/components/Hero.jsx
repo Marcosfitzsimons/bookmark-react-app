@@ -30,7 +30,7 @@ const Hero = () => {
               <button className="btn btn-primary text-start normal-case text-bg-color bg-soft-blue font-medium shadow-xl hover:bg-transparent hover:border-2 hover:text-soft-blue">
                 Get it on Chrome
               </button>
-              <button className="btn btn-active bg-bg-color hover:bg-soft-blue normal-case font-medium shadow-xl hover:bg-transparent hover:text-bg-color hover:border-2 hover:border-info ">
+              <button className="btn btn-active bg-bg-color hover:bg-soft-blue/5 normal-case font-medium shadow-xl hover:text-bg-color hover:border-2 hover:border-info ">
                 Get it on Firefox
               </button>
             </div>
