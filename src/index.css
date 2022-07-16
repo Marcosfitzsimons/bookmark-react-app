@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  :root {
+    --soft-blue: 231 69% 60%;
+    --soft-red: 0 94% 66%;
+    --grayish-blue: 229 8% 60%;
+    --very-dark-blue: 229 31% 21%;
+  }
+  body {
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+  }
 }
