@@ -4,7 +4,7 @@ import HeroImg from "../assets/illustration-hero.svg";
 
 const Hero = () => {
   return (
-    <section>
+    <section name="home" id="home">
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col sm:flex-row lg:container lg:m-auto p-0">
           <div className="hero-illustration-container relative sm:order-2 lg:w-[50%]">
@@ -18,7 +18,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="sm:order-1 lg:w-[50%] text-center lg:text-start">
-            <h1 className="text-4xl lg:text-5xl font-bold">
+            <h1 className="text-3xl lg:text-5xl font-bold">
               A Simple Bookmark Manager
             </h1>
             <p className="py-6 max-w-md m-auto lg:m-0 w-[90%]">

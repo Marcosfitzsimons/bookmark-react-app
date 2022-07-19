@@ -1,10 +1,11 @@
 import React from "react";
 import { AiFillFacebook, AiFillTwitterSquare } from "react-icons/ai";
 import { RiAwardFill } from "react-icons/ri";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-full py-8 lg:h-[8rem] flex justify-center items-center">
+    <footer className="w-full h-full py-14 lg:h-[8rem] flex justify-center items-center">
       <div className="container mx-auto flex flex-col gap-4 items-center justify-center lg:flex-row lg:justify-between">
         <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-5">
           <div className="navbar-start">
@@ -17,28 +18,37 @@ const Footer = () => {
           <nav className="xl:pr-20">
             <ul className="menu menu-horizontal p-0">
               <li className="text-sm">
-                <a
-                  href="#"
+                <Link
+                  to="features"
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
                   className="text-info uppercase font-medium tracking-widest hover:bg-transparent focus:bg-transparent hover:text-soft-red"
                 >
                   Features
-                </a>
+                </Link>
               </li>
               <li className="text-sm">
-                <a
-                  href="#"
+                <Link
+                  to="download"
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
                   className="text-info uppercase font-medium tracking-widest hover:bg-transparent focus:bg-transparent hover:text-soft-red"
                 >
-                  Pricing
-                </a>
+                  Download
+                </Link>
               </li>
               <li className="text-sm">
-                <a
-                  href="#"
+                <Link
+                  to="contact"
+                  smooth={true}
+                  offset={400}
+                  duration={500}
                   className="text-info uppercase font-medium tracking-widest hover:bg-transparent focus:bg-transparent hover:text-soft-red"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

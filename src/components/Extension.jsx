@@ -7,7 +7,7 @@ import OperaIcon from "../assets/logo-opera.svg";
 
 const Extension = () => {
   return (
-    <section className="h-full w-full py-5 xl:py-20">
+    <section className="h-full w-full py-10 xl:py-20" name="download">
       <SectionIntro
         title="Download the extension"
         text="Our aim is to make it quick and easy for you to access your favourite

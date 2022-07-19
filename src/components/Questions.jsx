@@ -5,8 +5,8 @@ import ButtonInfo from "./ButtonInfo";
 
 const Questions = () => {
   return (
-    <section className="h-full w-full py-5 xl:py-20">
-      <div className="relative bottom-9">
+    <section className="h-full w-full py-12 pb-24 xl:py-20">
+      <div className="relative bottom-9 w-[75%] m-auto">
         <SectionIntro
           title="Frequently Asked Questions"
           text="Here are some of our FAQs. If you have any other questions you’d like 
