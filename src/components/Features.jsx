@@ -1,5 +1,4 @@
 import React from "react";
-
 import FeaturesIllustration from "./FeaturesIllustration";
 import SectionIntro from "./SectionIntro";
 
@@ -14,7 +13,7 @@ const Features = () => {
       <nav className="">
         <ul className="flex flex-col items-center justify-center w-[85%] mx-auto my-8 xl:flex-row">
           <li className="cursor-pointer border-b border-t w-full flex flex-col justify-center items-center pt-6 xl:border-t-0 xl:h-[5rem]">
-            <p className=" text-base lg:text-lg pb-6">Simple Bookmarking</p>
+            <p className="text-base lg:text-lg pb-6">Simple Bookmarking</p>
             <div className="w-[35%] h-1 bg-soft-red relative top-[1px] xl:w-full"></div>
           </li>
           <li className="cursor-pointer border-b w-full flex flex-col justify-center items-center pt-6 xl:h-[5rem]">
@@ -28,7 +27,22 @@ const Features = () => {
         </ul>
       </nav>
 
-      <FeaturesIllustration />
+      <FeaturesIllustration
+        title="Bookmark in one click"
+        text="Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites."
+      />
+      <FeaturesIllustration
+        title="Intelligent search"
+        text="Our powerful search feature will help you find saved sites in no time at all. 
+        No need to trawl through all of your bookmarks."
+      />
+      <FeaturesIllustration
+        title="Share your bookmarks"
+        text="Easily share your bookmarks and collections with others. Create a shareable 
+        link that you can send at the click of a button."
+      />
     </section>
   );
 };
