@@ -23,7 +23,7 @@ const Footer = () => {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="text-info uppercase font-medium tracking-widest hover:bg-transparent focus:bg-transparent hover:text-soft-red"
+                  className="text-info uppercase font-base tracking-widest hover:bg-transparent focus:bg-transparent hover:text-soft-red"
                 >
                   Features
                 </Link>
@@ -34,7 +34,7 @@ const Footer = () => {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="text-info uppercase font-medium tracking-widest hover:bg-transparent focus:bg-transparent hover:text-soft-red"
+                  className="text-info uppercase font-base tracking-widest hover:bg-transparent focus:bg-transparent hover:text-soft-red"
                 >
                   Download
                 </Link>
@@ -45,7 +45,7 @@ const Footer = () => {
                   smooth={true}
                   offset={400}
                   duration={500}
-                  className="text-info uppercase font-medium tracking-widest hover:bg-transparent focus:bg-transparent hover:text-soft-red"
+                  className="text-info uppercase font-base tracking-widest hover:bg-transparent focus:bg-transparent hover:text-soft-red"
                 >
                   Contact
                 </Link>

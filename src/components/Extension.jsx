@@ -10,9 +10,8 @@ const Extension = () => {
     <section className="h-full w-full py-10 xl:py-20" name="download">
       <SectionIntro
         title="Download the extension"
-        text="Our aim is to make it quick and easy for you to access your favourite
-          websites. Your bookmarks sync between your devices so you can access
-          them on the go."
+        text="We’ve got more browsers in the pipeline. Please do let us know if you’ve
+        got a favourite you’d like us to prioritize."
       />
       <div className="grid place-items-center xl:grid-cols-3 lg:container lg:mx-auto lg:py-10">
         <ExtensionCard

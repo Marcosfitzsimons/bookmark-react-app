@@ -13,7 +13,7 @@ const ScrollUpBtn = () => {
 
   const scrollUp = () => {
     window.scrollTo({
-      top: 150,
+      top: 0,
       behavior: "smooth",
     });
   };
@@ -23,7 +23,7 @@ const ScrollUpBtn = () => {
       {backToTopBtn && (
         <div className="hover:bg-transparent hover:border-2 transition-colors hover:border-soft-red cursor-pointer fixed right-10 bottom-10 w-[2.5rem] h-[2.5rem] lg:w-[3rem] lg:h-[3rem] bg-soft-blue flex justify-center items-center rounded-md z-10 md:right-[5rem]">
           <RiArrowDropUpLine
-            className="text-4xl text-info-200 hover:text-soft-red lg:text-6xl"
+            className="text-4xl text-info-200 hover:text-soft-red `lg:text-6xl"
             onClick={scrollUp}
           />
         </div>

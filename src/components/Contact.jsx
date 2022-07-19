@@ -15,7 +15,7 @@ const Contact = () => {
             Stay up-to-date with what we're doing
           </h3>
         </div>
-        <div className="lg:flex-row lg:items-center gap-4 form-control w-[90%] mx-auto">
+        <div className="lg:flex-row lg:items-center gap-4 form-control w-[75%] mx-auto">
           <label className="label lg:hidden">
             <span className="label-text">Your Email</span>
           </label>
@@ -23,10 +23,10 @@ const Contact = () => {
             <input
               type="text"
               placeholder="put your email here..."
-              className="input input-bordered bg-bg-color text-info-content placeholder:text-info-content"
+              className="input input-bordered bg-bg-color text-info-content placeholder:text-info-content lg:text-base"
             />
           </label>
-          <button className="mt-8 lg:w-auto lg:mt-0 btn btn-primary w-full text-start normal-case text-bg-color hover:text-soft-red bg-soft-red font-medium shadow-xl hover:bg-bg-color hover:border-2 border-soft-red hover:border-soft-red">
+          <button className="mt-8 lg:w-auto lg:mt-0 btn btn-primary w-full text-start normal-case text-bg-color hover:text-soft-red bg-soft-red font-medium shadow-xl hover:bg-bg-color hover:border-2 border-soft-red hover:border-soft-red xl:text-base">
             Contact Us
           </button>
         </div>

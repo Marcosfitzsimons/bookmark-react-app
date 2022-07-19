@@ -25,7 +25,7 @@ const NavBar = () => {
         </div>
 
         <div className="">
-          <nav className="navbar-center hidden md:flex xl:pr-20">
+          <nav className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal p-0">
               <li className="text-sm">
                 <Link
