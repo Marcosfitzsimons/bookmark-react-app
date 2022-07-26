@@ -19,8 +19,8 @@ const NavBar = () => {
     <header className="w-full h-[10vh] bg-bg-color flex fixed shadow-2xl z-50">
       <div className="container m-auto navbar flex justify-between">
         <div className="navbar-start">
-          <a className="cursor-pointer">
-            <img src={logo} alt="#" />
+          <a className="cursor-pointer" href="#home">
+            <img src={logo} alt="logo" />
           </a>
         </div>
 
